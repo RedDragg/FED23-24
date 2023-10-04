@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Elton Irokromo
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
-
+  Zwarte piste 
+  
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://dribbble.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <a href="https://dribbble.com/">Dribbble - Discover the World’s Top Designers & Creative Professionals</a><br>
+  <img src="readme-images/Pagina1.png" width="375px" alt="Pagina 1">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <a href="https://dribbble.com/hiring">Hire the world’s top designers | Dribbble</a><br>
+  <img src="readme-images/Pagina2.png" width="375px" alt="Pagina 2">
  
 </details>
 
@@ -56,7 +56,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Lijst met je bevindingen die in de test naar voren kwamen:<br>
+  <img src="readme-images/Screenreader.png" width="375px" alt="Bevindingen screenreader pagina's"><br>
+  Cheatsheet screenreader <br>
+  <img src="readme-images/screenreader-cheatsheet.png" width="375px" alt="Screenreader cheatsheet">
+  
 
 </details>
 
