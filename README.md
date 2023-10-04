@@ -204,7 +204,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/BBC-home-eindproduct.png" width="375px" alt="uitkomst opdracht 1">
-    <img src="readme-images/BBC-news-eindproduct.png" width="375px" alt="uitkomst opdracht 1">
+    <img src="readme-images/BBC-News-eindproduct.png" width="375px" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
