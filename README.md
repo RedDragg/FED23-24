@@ -202,9 +202,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)<br>
   Ik heb tot nu toe de eerste pagina responsive kunnen krijgen. Alles ging tot nu toe goed. het is vooral begrijpen en zelf testen.<br>
-  <img src="readme-images/BBC-Homepage-600px.png" width="375px" alt="navigatie"> |<br><br>
-  <img src="readme-images/BBC-Homepage-600px-boven.png" width="375px" alt="navigatie"> |<br><br>
-  <img src="readme-images/BBC-Homepage-1000px.png" width="375px" alt="navigatie">  |<br><br>
+  <img src="readme-images/BBC-Homepage-600px.png" width="375px" alt="navigatie"> &nbsp
+  <img src="readme-images/BBC-Homepage-600px-boven.png" width="375px" alt="navigatie"> |  
+  <img src="readme-images/BBC-Homepage-1000px.png" width="375px" alt="navigatie">  |  
   <img src="readme-images/BBC-Homepage-1280px-boven.png" width="375px" alt="navigatie">
 
 
