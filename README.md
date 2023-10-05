@@ -128,7 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)<br>
   Ik heb de keuze gemaakt om de BBC website na te maken omdat hier meer uitdaging zit waaronder de nav vooral.
   Tot nu toe heb ik alleen de navigatie kunnen afmaken, maar dit was opzicht het moeilijkste van de website.<br><br>
   <img src="readme-images/BBC-nav2.png" width="375px" alt="navigatie"> |<br><br>
@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)<br>
   Ik heb tot nu toe de eerste pagina responsive kunnen krijgen. Alles ging tot nu toe goed. het is vooral begrijpen en zelf testen.<br>
   <img src="readme-images/BBC-Homepage-600px.png" width="375px" alt="navigatie"> |<br><br>
   <img src="readme-images/BBC-Homepage-600px-boven.png" width="375px" alt="navigatie"> |<br><br>
@@ -256,6 +256,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Met de kennis die ik nu heb kon ik de pagina's coderen met iets minder code.
 
 
+  ### Laatste opdracht
+  Problem:<br>
+  <img src="readme-images/Problem.png" width="375px" alt="Problem"><br><br>
+  Solver:<br>
+  <img src="readme-images/Solved.png" width="375px" alt="Solved">
 </details>
 
 
