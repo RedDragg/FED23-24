@@ -131,8 +131,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)<br>
   Ik heb de keuze gemaakt om de BBC website na te maken omdat hier meer uitdaging zit waaronder de nav vooral.
   Tot nu toe heb ik alleen de navigatie kunnen afmaken, maar dit was opzicht het moeilijkste van de website.<br><br>
+  Nav 1080px:<br>
   <img src="readme-images/BBC-nav2.png" width="375px" alt="navigatie"> |<br><br>
+  Nav 1000px:<br>
   <img src="readme-images/BBC-nav3.png" width="375px" alt="navigatie"> |<br><br>
+  nav 600px:<br>
   <img src="readme-images/BBC-nav.png" width="375px" alt="navigatie">
  
   ### Agenda voor meeting
@@ -202,10 +205,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)<br>
   Ik heb tot nu toe de eerste pagina responsive kunnen krijgen. Alles ging tot nu toe goed. het is vooral begrijpen en zelf testen.<br>
-  <img src="readme-images/BBC-Homepage-600px.png" width="375px" alt="navigatie"> --------
-  <img src="readme-images/BBC-Homepage-600px-boven.png" width="375px" alt="navigatie"> |  
-  <img src="readme-images/BBC-Homepage-1000px.png" width="375px" alt="navigatie">  |  
-  <img src="readme-images/BBC-Homepage-1280px-boven.png" width="375px" alt="navigatie">
+  < 600px<br>
+  <img src="readme-images/BBC-Homepage-600px.png" width="375px" alt="navigatie"> | <br><br>
+  > 600px<br>
+  <img src="readme-images/BBC-Homepage-600px-boven.png" width="375px" alt="navigatie"> |  <br><br>
+  1000px<br>
+  <img src="readme-images/BBC-Homepage-1000px.png" width="375px" alt="navigatie">  |  <br><br>
+  1280px<br>
+  <img src="readme-images/BBC-Homepage-1280px-boven.png" width="375px" alt="navigatie"> <br><br>
 
 
   ### Agenda voor meeting
@@ -239,7 +246,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  Homepage<br>
   <img src="readme-images/BBC-home-eindproduct.png" width="375px" alt="uitkomst opdracht 1"><br><br>
+  News<br>
   <img src="readme-images/BBC-News-eindproduct.png" width="375px" alt="uitkomst opdracht 1">
 
 
