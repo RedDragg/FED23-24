@@ -259,7 +259,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Laatste opdracht
   Problem:<br>
   <img src="readme-images/Problem.png" width="375px" alt="Problem"><br><br>
-  Solver:<br>
+  Solved:<br>
   <img src="readme-images/Solved.png" width="375px" alt="Solved">
 </details>
 
