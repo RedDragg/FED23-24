@@ -14,6 +14,10 @@ h2{
 	font-family: reithsansR;
 }
 
+a{ 
+	text-decoration: none;
+}
+
 /**********/
 /* FIRST CONTENT */
 /**********/
@@ -103,10 +107,8 @@ main section:first-of-type > ul li:hover::before {
 	opacity: 0;
 }
 
-main section:first-of-type > ul li ul{
+main section:first-of-type > ul li div{
 	position: absolute;
-	padding: .5em;
-	margin: 0;
 	bottom: 2em;
 	left: 2em;
 	right: 2em;
@@ -117,12 +119,12 @@ main section:first-of-type > ul li ul{
 }
 
 
-main section:first-of-type > ul li ul li:nth-of-type(2){
+main section:first-of-type > ul li div p{
 	display: none;
 }
 
 
-main section:first-of-type > ul li ul li:last-of-type a{
+main section:first-of-type > ul li div a:last-of-type{
 	color: #212121;
 	text-decoration: none;
 	position: relative;
@@ -130,7 +132,11 @@ main section:first-of-type > ul li ul li:last-of-type a{
 	font-weight: lighter;
 }
 
-main section:first-of-type > ul li ul li:last-of-type a::after{
+main section:first-of-type > ul li:first-of-type div a:last-of-type{
+	color: #b1b1b1;
+}
+
+main section:first-of-type > ul li div a:last-of-type::after{
 	content: '';
 	position: absolute;
 	top: 0.125em;
@@ -140,17 +146,13 @@ main section:first-of-type > ul li ul li:last-of-type a::after{
 	background-color: red;
 }
 
-main section:first-of-type > ul li:first-of-type ul li:last-of-type a{
-	color: #b1b1b1;
-}
-
-main section:first-of-type > ul li ul li:last-of-type:hover a{
+main section:first-of-type > ul li div a:last-of-type:hover{
 	text-decoration: underline;
 }
 
 
 
-main section:first-of-type > ul > li:not(:first-of-type) ul li h2 {
+main section:first-of-type h2 {
 	padding-bottom: 0.5em;
 }
 
@@ -164,17 +166,10 @@ main section:first-of-type > ul > li:not(:first-of-type) ul{
 	left: 0em;
 }
 
-main section:first-of-type > ul > li:not(:first-of-type) ul li:last-of-type {
-	margin-bottom: 0.5em;
+main section:first-of-type > ul > li:not(:first-of-type) div {
+	position: static;
 }
 
-main section:first-of-type > ul li:not(:first-of-type) ul li{
-	padding-bottom: 0em;
-}
-
-main section:first-of-type > ul li:not(:first-of-type) ul li:hover a{
-	text-decoration: underline;
-}
 
 main section:first-of-type > ul li:not(:first-of-type) > img ,
 main section:first-of-type > ul > li:not(:first-of-type):after ,
@@ -182,10 +177,21 @@ main section:first-of-type > ul > li:not(:first-of-type):before {
 	display: none;
 }
 
-main section:first-of-type > ul li ul:not(:first-of-type){
-	position: static;
+main section:first-of-type ul li:nth-of-type(2) div a:last-of-type::after{
+	background-color: #0068ff;
 }
 
+main section:first-of-type ul li:nth-of-type(3) div a:last-of-type::after{
+	background-color: #0052a1;
+}
+
+main section:first-of-type ul li:nth-of-type(4) div a:last-of-type::after{
+	background-color: #482878;
+}
+
+main section:first-of-type ul li:nth-of-type(5) div a:last-of-type::after{
+	background-color: #fa6400;
+}
 
 /****************/
 /* MAIN SECTION 2 */
@@ -214,7 +220,7 @@ main section:nth-of-type(2) a h2::after{
 	bottom: 0.3125em;
 	top: 0.3125em;
 	left: 0;
-	width: 0.1875em;
+	width: 0.3875em;
 	background-color: red;
 } 
 
@@ -593,16 +599,28 @@ main section:nth-of-type(4) > ul > li:not(:first-of-type) img:last-of-type{
 		display: block;
 	}
 
-	main section:first-of-type > ul li ul li:nth-of-type(2) p{
+	main section:first-of-type > ul li div p{
 		font-size: 2em;
 	}
 
-	main section:first-of-type > ul li ul li:first-of-type h1{
+	main section:first-of-type h1{
 		font-size: 2.75em;
 	}
 
-	main section:first-of-type > ul li ul li:last-of-type a{
+	main section:first-of-type > ul li div a:last-of-type{
 		color: #b1b1b1;
+	}
+
+	main section:first-of-type > ul > li:not(:first-of-type) div{
+		position: absolute;
+	}
+
+	main section:first-of-type ul li div p{
+		display: block;
+		font-size: 1.375em;
+		color: #b1b1b1;
+		font-family: reithsansR;
+		font-weight: lighter;
 	}
 
 	main.toonMenu2{

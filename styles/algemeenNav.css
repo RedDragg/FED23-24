@@ -267,7 +267,7 @@ header > nav:nth-of-type(2) ul li a span{
   align-items: center;
 }
 
-/* -n + 8 = -1 + 8, de items in de tweede navbar tot en met 8 krijgen een display none*/
+/* -n + 8 = -1 + 8, de items in de dropdown tot en met 8 krijgen een display none*/
 header > nav:nth-of-type(2) ul li:nth-child(-n + 8) {
   display: none;
 }
