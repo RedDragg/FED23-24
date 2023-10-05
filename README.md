@@ -239,7 +239,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/BBC-Home-eindproduct.png" width="375px" alt="uitkomst opdracht 1"><br><br>
+  <img src="readme-images/BBC-home-eindproduct.png" width="375px" alt="uitkomst opdracht 1"><br><br>
   <img src="readme-images/BBC-News-eindproduct.png" width="375px" alt="uitkomst opdracht 1">
 
 
