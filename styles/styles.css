@@ -21,6 +21,12 @@
       color: var(--color-text);
     }
     
+
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
   body{
     background-color: var(--color-background);
     display: grid;
@@ -183,6 +189,10 @@ footer ul:last-of-type li:last-of-type{
 
 footer ul:last-of-type li:nth-of-type(2) a{
     text-decoration: underline;
+}
+
+footer ul:last-of-type li p{
+    text-align: center;
 }
 
 main section:last-of-type div:last-of-type:hover p{

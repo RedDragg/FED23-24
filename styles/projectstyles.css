@@ -79,7 +79,7 @@ main section:last-of-type div p{
 
 
 main section:last-of-type > p{
-    font-size: 8vw;
+    font-size: 8.5vw;
     word-break: break-word;
     font-family: reithsansR;
     font-weight: lighter;

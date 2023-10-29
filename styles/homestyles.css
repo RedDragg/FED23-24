@@ -232,7 +232,7 @@ main section:nth-of-type(4) article div p{
 }
 
 main section:nth-of-type(4) article > p{
-    font-size: 10vw;
+    font-size: 8.5vw;
     word-break: break-word;
     font-family: reithsansR;
     font-weight: lighter;
