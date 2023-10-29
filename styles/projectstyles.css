@@ -1,287 +1,156 @@
-@font-face {
-    font-family: reithsansB;
-    src: url(./BBCReithSans_W_Bd.ttf);
-  }
-  
-  @font-face {
-    font-family: reithsansR;
-    src: url(./BBCReithSans_W_Rg.ttf);
-  }
-
-  *:focus{
-    border: 1px solid brown;
-  }
-  
-  *, *::after, *::before{
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      font-family: reithsansR;
-      font-weight: lighter;
-      color: var(--color-text);
-    }
-    
-  body{
-    background-color: var(--color-background);
-    display: grid;
-    justify-content: center;
-    width: 100%;
-    gap: 1em;
-  }
-
-  :root {
-    --color-background: #222429;
-    --color-text: #FFFFFF;
-    --color-text-secundaire: #F0A144;
-    --hero-text-size: 8em;
-    --about-text-size: 1.5em;
-  }
-
-h1{
-    font-size: var(--hero-text-size);
+header h1{
+    font-size: 20vw;
 }
 
-h2{
-    font-size: var(--about-text-size);
-}
-
-ul{
-    list-style: none;
-}
-
-a{ 
-    text-decoration: none;
-}
-
-.active{
-    text-decoration: underline;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    padding: 1.5em 2em 1.5em 2em;
-    background-color: var(--color-background);
-    position: fixed;
-}
-
-nav > ul {
-    display: none;
-}
-
-nav > img {
-    width: 2em;
-}
-
-nav > p {
-    font-size: 1.3em;
-    font-weight: lighter;
-    font-family: reithsansB;
+header p{
+    font-size: 1em;
 }
 
 header{
+    padding: 20vh 2em 2em 2em;
     display: grid;
-    grid-template-columns: 81% auto;
-    width: 1280px;
-    padding: 10em 2em 2em 2em;
-    gap: 2em;
+    gap: 3em;
 }
 
-header div:first-of-type{
+header > div:first-of-type{
     display: grid;
     gap: 1em;
 }
 
-header div:last-of-type{
-    grid-column: span 2;
+header > div:last-of-type{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    grid-template-columns: 20vw auto;
     padding-top: 5em;
 }
 
-header div:last-of-type img:first-of-type{
-    display: flex;
-    align-self: flex-end;
-    justify-self: center;
-    width: 10em;
+header div img{
+    width: 100%;
 }
 
 main{
-    width: 1280px;
     padding: 2em;
     display: grid;
-    gap: 5em;
+    gap: 8em;
 }
 
-main section:first-of-type,
-main section:nth-of-type(2){
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4em;
-    background-color: #D9D9D9;
+main section:not(:last-of-type){
+    background-color: var(--color-section-color);
+    padding: 2em;
 }
 
-main section:first-of-type h2,
-main section:first-of-type h3,
-main section:first-of-type p,
-main section:first-of-type a,
-main section:first-of-type span,
-main section:nth-of-type(2) h2,
-main section:nth-of-type(2) h3,
-main section:nth-of-type(2) p,
-main section:nth-of-type(2) a,
-main section:nth-of-type(2) span{
+main section:not(:last-of-type) article{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+
+}
+
+main section:not(:last-of-type) article p:first-of-type{
+    order: -1;
+}
+
+main section:not(:last-of-type) p,
+main section:not(:last-of-type) h2,
+main section:not(:last-of-type) h3,
+main section:not(:last-of-type) a,
+main section:not(:last-of-type) span{
     color: black;
 }
 
-main section:first-of-type div:last-of-type,
-main section:nth-of-type(2) div:last-of-type{
-    grid-row: span 4;
-    order: -1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-main section:first-of-type p:first-of-type,
-main section:nth-of-type(2) p:first-of-type{
-    order: -1;
-}
-
-main section:first-of-type div:last-of-type a,
-main section:nth-of-type(2) div:last-of-type a{
-    padding-right: 4em;
+main section:not(:last-of-type) a{
     text-decoration: underline;
 }
 
-main section:first-of-type h2,
-main section:nth-of-type(2) h2{
-    font-size: 2em;
+main section:not(:last-of-type) span,
+main section:not(:last-of-type) h2,
+main section:not(:last-of-type) h3{
     font-family: reithsansB;
-    font-weight: lighter;
 }
 
-main section:first-of-type p:last-of-type,
-main section:nth-of-type(2) p:last-of-type{
-    font-size: 1.2em;
+main section:not(:last-of-type) img{
+    width: 100%;
 }
 
-main section:first-of-type div:first-of-type h3,
-main section:first-of-type div:first-of-type span,
-main section:nth-of-type(2) div:first-of-type h3,
-main section:nth-of-type(2) div:first-of-type span{
-font-family: reithsansB;
-font-weight: lighter;
-}
-
-main section:nth-of-type(3){
-    padding-top: 6em;
-}
-
-main section:nth-of-type(3) div{
-    display: flex;
-    justify-content: space-between;
-}
-
-main section:nth-of-type(3) h2,
-main section:nth-of-type(3) div p{
+main section:last-of-type div h2,
+main section:last-of-type div p{
+    font-size: 2em;
     color: var(--color-text-secundaire);
-    font-size: 2em;    
 }
 
-main section:nth-of-type(3) > p{
-    font-size: 4em;
+
+main section:last-of-type > p{
+    font-size: 8vw;
+    word-break: break-word;
+    font-family: reithsansR;
+    font-weight: lighter;
     text-decoration: underline;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 2em 0;
 }
 
-footer{
-    padding: 2em;
-}
-
-footer ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+main section:last-of-type div:last-of-type{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-footer ul:first-of-type{
-    padding-bottom: 3em;
+main section:last-of-type div:last-of-type p{
+    color: white;
+    font-size: 2em;
 }
 
-footer ul li{
-    display: grid;
-    justify-content: center;
-}
+@media (width > 600px){  
+    header{
+        grid-template-columns: 1fr 20vw;
+    }
 
-footer ul:first-of-type li:first-of-type{
-    justify-content: flex-end;
-}
+    header h1{
+        font-size: 5em;
+    }
 
-footer ul:first-of-type li:last-of-type{
-    justify-content: flex-start;
-}
+    header > div:last-of-type{
+        grid-column: span 2;
+    }
 
-footer img{
-    width: 3em;
-    border-radius: 5em;
-}
-
-footer ul li:first-of-type img:hover{
-    content: url(../images/icons8-linkedin-481.png);
-    cursor: pointer;
-}
-footer ul li:nth-of-type(2) img:hover{
-    content: url(../images/icons8-github-501.png);
-    cursor: pointer;
-}
-footer ul li:last-of-type img:hover{
-    content: url(../images/icons8-facebook-481.png);
-    cursor: pointer;
-}
-
-footer ul:last-of-type li:first-of-type{
-    justify-content: flex-start;
-}
-
-footer ul:last-of-type li:last-of-type{
-    justify-content: flex-end;
-}
-
-footer ul:last-of-type li:nth-of-type(2) a{
-    text-decoration: underline;
-}
-
-
-@media (width > 600px){    
-    nav > ul{
+    header div div{
         display: flex;
-        gap: 0.3em;
+        flex-direction: row;
+        gap: 1em;
     }
 
-    nav > img{
-        display: none;
+    header > div > img{
+        width: 7em;
+        display: flex;
+        justify-self: center;
     }
-
-    nav > ul li a {
-        font-weight: lighter;
-    }
-
-    nav > ul li a:hover{
-        text-decoration: underline;
-    }
-
-    nav > p {
-        font-size: 1em;
+    main section:last-of-type div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
-@media (width > 1280px){
-    nav{
+@media (width > 900px){
+
+    main section:not(:last-of-type){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+    }
+
+    main section:not(:last-of-type) a {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5vw;
+      }
+
+      main section:last-of-type > p{
+        font-size: 4em;
+    }
+}
+
+@media (width > 1280px){  
+    header,
+    main{
         width: 1280px;
-        justify-self: center;
     }
 }
