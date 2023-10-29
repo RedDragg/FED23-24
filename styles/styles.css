@@ -134,6 +134,10 @@ nav:last-of-type ul li a{
     border-bottom: 1px solid white;
 }
 
+nav:last-of-type ul li a:hover{
+    text-decoration: underline;
+}
+
 footer{
     padding: 2em;
 }
@@ -198,6 +202,8 @@ footer ul:last-of-type li p{
 main section:last-of-type div:last-of-type:hover p{
     color: var(--color-text-secundaire);
 }
+
+
 
 @media (width > 600px){   
     nav:first-of-type > ul{
